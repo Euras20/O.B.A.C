@@ -1,0 +1,169 @@
+.container{
+    /*background-color: rgb(11, 11, 11);*/
+    width: auto;
+    height: 1168px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Nav-bar{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #20CBA7;
+  /*border-image: linear-gradient(to right, red, blue);
+  border-image-slice: 1;*/
+  background-color: rgba(0, 0, 0, 0.5); /* 0.5 represents 50% opacity */
+   
+}
+
+
+.Nav-bar nav{
+    float: right;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+
+.Nav-bar a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.Nav-bar a:hover{
+    color: #20CBA7;
+}
+
+.Nav-bar Button {
+    border: #20CBA7;
+    background-color: #20CBA7;
+}
+
+.Nav-bar Button a{
+    padding: 10px;
+}
+
+.Nav-bar Button a:hover{
+    color: whitesmoke;
+}
+
+.Nav-bar img{
+    width: 70px;
+    height: 70px;
+    float: left;
+    border-radius: 50%;
+    border: 3px solid ,#20CBA7;
+    margin-left: 95px;
+    margin-top: 15px;
+}
+
+h2{
+    background: linear-gradient(90deg,#20CBA7,#085a65 );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 125px;
+    padding-top: 38px;
+    font-weight: 600;
+}
+
+.Form{
+    width: 100%;
+    height: 850px;
+}
+
+
+
+.Form-left{
+    width: 40%;
+    height: 90%;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.5); /* 0.5 represents 50% opacity */
+    border-radius: 30px;
+    margin-left: 6%;
+    margin-top: 3%;
+}
+
+.Form-Right{
+    width: 40%;
+    height: 90%;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.5); /* 0.5 represents 50% opacity */
+    border-radius: 30px;
+    margin-right: 6%;
+    margin-top: 3%;
+}
+
+input{
+  width: 70%;
+  height: 70%;
+  border: 2px solid  #20CBA7;
+  padding:0 15px;
+  margin:20px auto;
+  font-size: 20px;
+  margin-left: 20%;
+}
+
+input[type=radio]{
+    padding:0 15px;
+    margin-left: -100%;
+  }
+
+table{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.Form-Right table{
+    margin-top: 9%;
+}
+
+label{
+    color: whitesmoke;
+    margin-left: 20%;
+    font-size: 20px;
+}
+
+span{
+    color: #ffffff;
+    margin-left: -50%;
+}
+
+select{
+    display: inline-block;
+    width: 70%;
+    height: 70%;
+    border: 2px solid#20CBA7;
+    padding:0 15px;
+    margin:20px auto;
+    font-size: 20px;
+    margin-left: 20%;
+  }
+
+  .Form-Right button{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: medium;
+    background-attachment: fixed;
+    background-color: #20CBA7;
+    padding: 10px;
+}
+
+.Four{
+    width: 100%;
+    height: 210px;
+    background-color: rgba(0, 0, 0, 0.5); /* 0.5 represents 50% opacity */
+}
+
+.Four img{
+  width: 200px;
+  height: 150px;
+  margin-left: 200px;
+  margin-top: -20px;
+}
+

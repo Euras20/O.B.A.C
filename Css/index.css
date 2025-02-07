@@ -1,0 +1,266 @@
+.container{
+    /*background-color: rgb(11, 11, 11);*/
+    width: auto;
+    height: 2400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Nav-bar{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #20CBA7;
+  /*border-image: linear-gradient(to right, red, blue);
+  border-image-slice: 1;*/
+  background-color: rgba(0, 0, 0, 0.5); /* 0.5 represents 50% opacity */
+   
+}
+
+
+.Nav-bar nav{
+    float: right;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+
+.Nav-bar a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.Nav-bar a:hover{
+    color: #20CBA7;
+}
+
+.Nav-bar Button {
+    border: #20CBA7;
+    background-color: #20CBA7;
+}
+
+.Nav-bar Button a{
+    padding: 10px;
+}
+
+.Nav-bar Button a:hover{
+    color: whitesmoke;
+}
+
+.Nav-bar img{
+    width: 70px;
+    height: 70px;
+    float: left;
+    border-radius: 50%;
+    border: 3px solid ,#20CBA7;
+    margin-left: 95px;
+    margin-top: 15px;
+}
+
+h2{
+    background: linear-gradient(90deg,#20CBA7,#085a65 );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 120px;
+    padding-top: 38px;
+    font-weight: 600;
+}
+
+.First{
+    width: 100%;
+    height:300px ;
+    background-color: rgba(88, 88, 88, 0.5); /* 0.5 represents 50% opacity */
+}
+
+.First img{
+    width: 40%;
+    height: 100%;
+    float: right;
+    margin-right: 100px;
+    
+}
+
+
+.First .text{
+    width: 40%;
+    height: 85%;
+    float: left;
+    margin-left: 100px;
+}
+
+.First .text p{
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.First .text p1{
+    color: #20CBA7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.First .text h4{
+    color: whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: medium;
+}
+
+.Second{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(88, 88, 88, 0.5); /* 0.5 represents 50% opacity */
+}
+
+.Second-left{
+    width: 50%;
+    height: 600px;
+    float: left;
+}
+
+.Second-left img{
+    margin-top: 12%;
+    margin-left: -200px;
+}
+
+.Second-Right{
+    width: 50%;
+    height: 600px;
+    float: right;
+}
+
+.Second-Right  p{
+    color: #20CBA7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    /*border-bottom: 3px solid rgb(233, 233, 233); 
+    padding-bottom: 8px;*/ 
+}
+
+.Second-Right h3{
+    color: whitesmoke;
+    font-size: medium;
+    padding-right: -150px;
+}
+
+.Third{
+    width: 100%;
+    height: 1200px;
+    background-color: rgba(88, 88, 88, 0.5); /* 0.5 represents 50% opacity */
+    
+}
+
+.Third .Patners{
+    width: 50%;
+    height: 600px;
+    float: left;
+}
+
+.Third .Patners  p1{
+    color: #20CBA7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin-left: 100px;
+    border-bottom: 3px solid rgb(251, 251, 251); 
+    padding-bottom: 8px; 
+}
+
+.Third .Patners  p{
+    color: whitesmoke;
+    margin-left: 100px;
+   /* border-right:2px solid whitesmoke;
+    padding-right: 10px;*/ 
+}
+
+.Third .Patners-Logo {
+    width: 50%;
+    height: 600px;
+    float: right;
+}
+
+.Third .Account{
+    height: 600px;
+    
+}
+
+.Third .Account .Saving{
+    width: 30%;
+    height: 75%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 150px;
+    border: 3px solid #d9d9d9;
+    border-radius: 20px;
+    box-shadow:0px 0px 15px 15px rgba(58, 163, 121);
+}
+
+.Third .Account .Checking{
+    width: 30%;
+    height: 75%;
+    float: right;
+    margin-top: 5%;
+    margin-right: 100px;
+    border: 3px solid #d9d9d9;
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px 15px rgba(58, 163, 121);
+}
+
+.Third .Account  p1{
+    color: #20CBA7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: left;
+    margin-top: -1px;
+    border-bottom: 3px solid rgb(242, 242, 242); 
+    padding-bottom: 8px; 
+}
+
+.Third .Account  p{
+    color: whitesmoke;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.Third .Account  h2{
+    color: whitesmoke;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+.Third .Account a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    background-color: #20CBA7;
+    border: 3px solid #20CBA7;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+
+
+.Four{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.5); /* 0.5 represents 50% opacity */
+}
+
+.Four img{
+    width: 200px;
+    height: 150px;
+    margin-left: 200px;
+    margin-top: -20px;
+}
+
+
+
